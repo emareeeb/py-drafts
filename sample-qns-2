@@ -1,0 +1,35 @@
+'''write a program in python to check wheather a given number is prime or not.
+given a number n find all the factors of that number and count the number of factors.'''
+
+'''n=int(input("please enter a number:"))
+f=0
+i=2
+while i <= n/2:
+    if n % i == 0:
+        f=1
+        break
+    i=i+1
+if f==0:
+    print("PRIME NUMBER YAY")
+else:
+    print("GHANTA PRIME")''''''
+    
+    
+'''#3)write a program to display the sum of odd or even number seperately that fall between the two numbers accepted by the user'''
+a=int(input("please enter a number"))
+b=int(input("please enter another number"))
+se=0
+so=0
+while(a<=b):
+    if a%2==0:
+        se = se + a
+        a = a + 1
+    else:
+        so=so+a
+        a=a+1
+print("sum of even numbers is :", se)
+print("sum of odd numbers is:", so")""
+
+
+
+
