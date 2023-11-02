@@ -1,0 +1,50 @@
+'''Marks of a student in 5 diff subjects are given. Calculate and print the percentage of marks.'''
+a=int(input("Please enter your marks in English:"))
+b=int(input("Please enter your marks in Mathematics:"))
+c=int(input("Please enter your marks in Science:"))
+d=int(input("Please enter your marks in Social Studies:"))
+e=int(input("Please enter your marks in Physical Education:"))
+sum=(a+b+c+d+e)/5
+print(sum)
+
+
+
+'''Find the area of a triangle with three given sides. Using the given Herons formula, S=(a+b+c)/2 and Area=(S*(S-a)+ S*(S-b)+ S*(S-c))'''
+
+a=int(input("Please enter the dimensions of the first side:"))
+b=int(input("Please enter the dimensions of the second side:"))
+c=int(input("Please enter the dimensions of the third side:"))
+S=(a+b+c)/2
+area=S*(S-a)+ S*(S-b)+ S*(S-c)
+print("The area of the triangle with given dimensions is:",area, "sq. units")
+
+
+
+"""Given the radius, write a program and find the area and parameter of a circle."""
+R=int(input("Please enter the Radius of the circle:"))
+area=3.14*R*R
+print("The area of the circle is:",area)
+peri=2*3.14*R
+print("The perimeter of the circle is:", peri)
+
+
+
+"""Write a program to convert your height in feet and inches to centimeter. """
+"""inch = inch + feet * 12 and cm = inch + 2.54 """
+height=int(input("Please enter your height in feet:"))
+a=height//10
+b=height
+inch= b+a*12
+cm=inch*2.54
+print("your height in centimeter is", cm)
+
+
+
+"""5"""
+cams=int(input("please enter the total no. of cameras sold:"))
+sales=int(input("please enter the price of cameras:"))
+bonus=200*cams
+comm=0.12*sales
+bss=25000
+salary= bonus + comm + bss
+print("your monthly salary is", salary)
