@@ -48,3 +48,15 @@ comm=0.12*sales
 bss=25000
 salary= bonus + comm + bss
 print("your monthly salary is", salary)
+
+"""
+Write a Python function that calculates the factorial of a non-negative integer. The factorial of a non-negative integer n, denoted as n!, is the product of all positive integers less than or equal to n.
+"""
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+result = factorial(5)
+print(result)  # Output: 120 (5! = 5 x 4 x 3 x 2 x 1)
+
