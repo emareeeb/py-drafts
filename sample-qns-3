@@ -1,0 +1,20 @@
+"""Calculate the avg of three nums"""
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+average = (num1 + num2 + num3) / 3
+print("The average of the three numbers is:", average)
+
+
+"""Convert Celcius to Fahrenheit"""
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print("Temperature in Fahrenheit is:", fahrenheit)
+
+
+"""Calculate Simple Interest"""
+principal = float(input("Enter principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter time (in years): "))
+simple_interest = (principal * rate * time) / 100
+print("Simple Interest is:", simple_interest)
